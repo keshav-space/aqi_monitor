@@ -3,10 +3,10 @@
 #include <ESP8266HTTPClient.h>
 
 // Replace with your network credentials
-const char* ssid = "Pratyusha";
-const char* password = "keshav1997";
+const char* ssid = "SSID";
+const char* password = "SSID_PASS";
 
-const char* serverName = "http://192.168.2.150:8080/post-data.php";
+const char* serverName = "http://server_address/post-data.php";
 String apiKeyValue = "894D9329C71C59EDF417695DF56CF";
 
 const int aqi_pin = A0;
@@ -14,7 +14,7 @@ const int selectB = 16;
 const int selectA = 5;
 String aqi, pm, co;
 
-const int pin = 2;  //DSM501A input D8
+const int pin = 2;  //DSM501A input D4
 unsigned long duration;
 unsigned long starttime;
 unsigned long endtime;

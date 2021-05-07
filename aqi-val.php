@@ -1,8 +1,10 @@
 <?php
 $servername = "localhost";
 $dbname = "remote_sensing_data";
-$username = "root";
-$password = "root";
+
+// Replace with username and password
+$username = "database_username";
+$password = "password";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {

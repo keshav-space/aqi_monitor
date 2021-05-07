@@ -4,9 +4,9 @@ $servername = "localhost";
 // REPLACE with your Database name
 $dbname = "remote_sensing_data";
 // REPLACE with Database user
-$username = "root";
+$username = "database_username";
 // REPLACE with Database user password
-$password = "root";
+$password = "password";
 
 $api_key_value = "894D9329C71C59EDF417695DF56CF";
 $api_key = $pm = $aqi = $co = "";
